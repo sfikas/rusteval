@@ -1,0 +1,9 @@
+[package]
+name = "rusteval"
+version = "0.5.0"
+authors = ["Giorgos Sfikas <georges.sfikas@gmail.com>"]
+
+[dependencies]
+regex="0.1"
+getopts = "0.2"
+rand = "0.3.0"

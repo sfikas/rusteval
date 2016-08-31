@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GroundTruthRelevanceJudgements xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GTRel queryid="sb0000">
+    <word document="027_029_001" x="159" y="1775" width="184" height="89" Relevance="1" />
+    <word document="027_029_001" x="860" y="1774" width="180" height="89"  Relevance="1" />
+    <word document="027_029_001" x="1490" y="1769" width="176" height="86" Relevance="1" />
+    <word document="027_029_001" x="1015" y="2182" width="189" height="87" Relevance="1" />
+    <word document="071_053_004" x="92" y="607" width="220" height="138" Relevance="1" />
+    <word document="096_008_002" x="145" y="1209" width="361" height="195" Relevance="0.9" />
+    <word document="071_085_004" x="860" y="637" width="248" height="97" Relevance="0.8" />
+    <word document="071_053_004" x="354" y="790" width="319" height="108" Relevance="0.7" />
+    <word document="027_029_001" x="1460" y="178" width="298" height="98" Relevance="0.6" />
+  </GTRel>
+  <GTRel queryid="sb0001">
+    <word document="027_029_001" x="159" y="1775" width="184" height="89" elevance="1" />
+    <word document="027_029_001" x="860" y="1774" width="180" height="89" Relevance="1" />
+    <word document="027_029_001" x="1490" y="1769" width="176" height="86" Relevance="1" />
+    <word document="027_029_001" x="1015" y="2182" width="189" height="87" Relevance="1" />
+    <word document="071_053_004" x="92" y="607" width="220" height="138"  Relevance="1" />
+    <word document="096_008_002" x="145" y="1209" width="361" height="195" Relevance="0.9" />
+    <word document="071_085_004" x="860" y="637" width="248" height="97" Relevance="0.8" />
+    <word document="071_053_004" x="354" y="790" width="319" height="108"  Relevance="0.7" />
+    <word document="027_029_001" x="1460" y="178" width="298" height="98" Relevance="0.6" />
+  </GTRel>
+</GroundTruthRelevanceJudgements>
