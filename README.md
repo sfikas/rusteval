@@ -1,5 +1,7 @@
 # Rusteval
 
+[![Build Status](https://travis-ci.org/sfikas/rusteval.svg?branch=master)](https://travis-ci.org/sfikas/rusteval)
+
 A tool used to evaluate the output of retrieval algorithms. Written in [Rust]. 
 
 ## Building
