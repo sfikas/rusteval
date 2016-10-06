@@ -196,6 +196,38 @@ Sample result file:
 In this example, for ```query2``` the best match is ```document="027_029_001" x="1015" y="2182" width="189" height="87"```,
 and the worst match is ```document="027_029_001" x="1490" y="1769" width="176" height="86"```.
 
+## Metrics
+
+### Precision at 5
+
+Precision at 5 is defined as the ratio of the number of instances, among the k closest matches, that are correctly retrieved,
+divided by k.
+For Precision at 5, k equals to 5, *or the total number of possible matches if this number is less than 5* (the software provided with the [keyword spotting competition] of ICFHR 2014 also uses this convention).
+Precision at 10 is defined in an analogous manner.
+
+### Average Precision
+
+Average precision is defined as the weighted average of 'Precisions at k' for all possible values of k.
+The weight is defined as rel(k), where  
+
+For more details, see
+```
+@article{giotis2016survey,
+  title = {A Survey of Document Image Word Spotting techniques},
+  author = {Giotis, Angelos P. and Sfikas, Giorgos and Gatos, Basilis and Nikou, Christophoros},
+  journal={Submitted to Pattern Recognition},
+  year={2016}
+}
+
+@inproceedings{pratikakis2014icfhr,
+  title={{ICFHR} 2014 competition on handwritten keyword spotting (H-KWS 2014)},
+  author={Pratikakis, Ioannis and Zagoris, Konstantinos and Gatos, Basilis and Louloudis, Georgios and Stamatopoulos, Nikolaos},
+  booktitle={International Conference on Frontiers in Handwriting Recognition (ICFHR)},
+  pages={814--819},
+  year={2014}
+}
+```
+
 [trec_eval]: <http://faculty.washington.edu/levow/courses/ling573_SPR2011/hw/trec_eval_desc.htm>
 [keyword spotting]: <http://www.cs.uoi.gr/~sfikas/16SfikasRetsinasGatos_ZAH.pdf>
 [keyword spotting competition]: <http://vc.ee.duth.gr/H-KWS2014/>
