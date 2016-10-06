@@ -210,7 +210,7 @@ Precision at 10 is defined in an analogous manner.
 ### Average Precision
 
 Average precision is defined as the weighted average of 'Precisions at k' for all possible values of k.
-The weight is defined as rel(k), where  
+The weight depends on k and equals to one if the k-th retrieved instance is a match. Otherwise it equals to zero.  
 
 For more details, see
 ```
