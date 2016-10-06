@@ -1,0 +1,10 @@
+language: rust
+rust:
+  - stable
+  - beta
+  - nightly
+matrix:
+  allow_failures:
+    - rust: nightly
+install: 
+  - gunzip fixtures/G1_TRACK_I_Bentham.xml.gz
