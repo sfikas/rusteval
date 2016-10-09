@@ -214,13 +214,6 @@ The weight depends on k and equals to one if the k-th retrieved instance is a ma
 
 For more details, see
 ```
-@article{giotis2016survey,
-  title = {A Survey of Document Image Word Spotting techniques},
-  author = {Giotis, Angelos P. and Sfikas, Giorgos and Gatos, Basilis and Nikou, Christophoros},
-  journal={Submitted to Pattern Recognition},
-  year={2016}
-}
-
 @inproceedings{pratikakis2014icfhr,
   title={{ICFHR} 2014 competition on handwritten keyword spotting (H-KWS 2014)},
   author={Pratikakis, Ioannis and Zagoris, Konstantinos and Gatos, Basilis and Louloudis, Georgios and Stamatopoulos, Nikolaos},
@@ -229,6 +222,7 @@ For more details, see
   year={2014}
 }
 ```
+
 
 [trec_eval]: <http://faculty.washington.edu/levow/courses/ling573_SPR2011/hw/trec_eval_desc.htm>
 [keyword spotting]: <http://www.cs.uoi.gr/~sfikas/16SfikasRetsinasGatos_ZAH.pdf>
