@@ -45,7 +45,7 @@ target/release/rusteval <relevance file> <result file>
 ```
 
 The ```fixtures/``` folder contains some examples of relevance and result files (see below for an explanation of what these files are).
-For example, in order reproduce some of the results of the ICFHR'14 [keyword spotting competition], you can run
+For example, in order to reproduce some of the results of the ICFHR'14 [keyword spotting competition], you can run
 ```
 target/release/rusteval fixtures/TRACK_I_Bentham_ICFHR2014.RelevanceJudgements.xml fixtures/G1_TRACK_I_Bentham.xml
 ```
