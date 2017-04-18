@@ -214,12 +214,12 @@ The weight depends on k and equals to one if the k-th retrieved instance is a ma
 
 For more details, see
 ```
-@inproceedings{pratikakis2014icfhr,
-  title={{ICFHR} 2014 competition on handwritten keyword spotting (H-KWS 2014)},
-  author={Pratikakis, Ioannis and Zagoris, Konstantinos and Gatos, Basilis and Louloudis, Georgios and Stamatopoulos, Nikolaos},
-  booktitle={International Conference on Frontiers in Handwriting Recognition (ICFHR)},
-  pages={814--819},
-  year={2014}
+@ARTICLE{Giotis17,
+    title={A survey of document image word spotting techniques},
+    author={A. P. Giotis and G. Sfikas and B. Gatos and C. Nikou},
+    journal={Pattern Recognition},
+    year={2017},
+    publisher={Elsevier}
 }
 ```
 
