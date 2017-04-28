@@ -215,11 +215,14 @@ The weight depends on k and equals to one if the k-th retrieved instance is a ma
 For more details, see
 ```
 @ARTICLE{Giotis17,
-    title={A survey of document image word spotting techniques},
-    author={A. P. Giotis and G. Sfikas and B. Gatos and C. Nikou},
-    journal={Pattern Recognition},
-    year={2017},
-    publisher={Elsevier}
+    title = "A survey of document image word spotting techniques",
+    author = "A. P. Giotis and G. Sfikas and B. Gatos and C. Nikou",
+    journal = "Pattern Recognition",
+    volume = "68",
+    number = "",
+    pages = "310 - 332",
+    year = "2017",
+    publisher = "Elsevier"
 }
 ```
 
