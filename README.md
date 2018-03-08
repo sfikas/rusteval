@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/sfikas/rusteval.svg?branch=master)](https://travis-ci.org/sfikas/rusteval)
 
-A tool used to evaluate the output of retrieval algorithms. Written in [Rust]. 
+A tool used to evaluate the output of retrieval algorithms. Written in [Rust].
 
 ## Building
 
@@ -52,9 +52,9 @@ target/release/rusteval fixtures/TRACK_I_Bentham_ICFHR2014.RelevanceJudgements.x
 This should produce the results of evaluation of method 'G1' for the 'Bentham' track of the competition. Results show up for each of the selected queries, and averaged over all queries.
 The last lines of the output should read something like
 ```
-MEAN:  precAt5    precAt10   ap              
+MEAN:  precAt5    precAt10   ap
 =======================================================================
-       0.73813    0.60268    0.52402		
+       0.73813    0.60268    0.52402
 ```
 This output means that mean precision at 5 is 73.8%, mean precision at 10 is 60.2%, and mean average precision (MAP) is 52.4% for the submitted method.
 
@@ -72,7 +72,7 @@ The *relevance file* tells us:
 * With what matching tokens does each query *actually* match
 
 The *result file* tells us:
-* What is the ordered list of matching tokens, from best to worst match, for each query 
+* What is the ordered list of matching tokens, from best to worst match, for each query
 
 ## Supported input file formats
 
@@ -90,7 +90,7 @@ for each text line.
 
 The line above tells us that query with id ```qid``` matches with token ```docno```.
 The degree that the query and each token match is encoded as the floating-point value ```rel```, taking
-values in ```[0, 1]```. A perfect match has ```rel = 1```. 
+values in ```[0, 1]```. A perfect match has ```rel = 1```.
 
 Sample relevance file:
 ```
@@ -133,7 +133,7 @@ cv1 0 April_g01-008-03 8 -1.584332 hws
 cv1 0 April_n01-045-05 9 -1.682590 hws
 ```
 
-This shows results for matches with query ```cv1```. The best match is ```April_d06-086-09```, 
+This shows results for matches with query ```cv1```. The best match is ```April_d06-086-09```,
 the worst match is ```April_n01-045-05```.
 Note again that is is the ```rank``` value that encodes the order of the matches, i.e. the penultimate floating-point number in each line.
 
@@ -156,7 +156,7 @@ Note also that rusteval requires that each line must contain at most one XML tag
 #### Relevance file
 
 Sample relevance file:
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <GroundTruthRelevanceJudgements xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <GTRel queryid="query1">
@@ -176,7 +176,7 @@ Sample relevance file:
 The quality of the match is encoded by the order in which the token appears in the file.
 
 Sample result file:
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?><RelevanceListings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Rel queryid="query1">
     <word document="027_029_001" x="159" y="1775" width="184" height="89" />
@@ -189,8 +189,8 @@ Sample result file:
     <word document="027_029_001" x="1015" y="2182" width="189" height="87" />
     <word document="071_053_004" x="92" y="607" width="220" height="138" />
     <word document="027_029_001" x="159" y="1775" width="184" height="89" />
-    <word document="027_029_001" x="860" y="1774" width="180" height="89" />  
-    <word document="027_029_001" x="1490" y="1769" width="176" height="86" />    
+    <word document="027_029_001" x="860" y="1774" width="180" height="89" />
+    <word document="027_029_001" x="1490" y="1769" width="176" height="86" />
   </Rel>
 </RelevanceListings>
 ```
@@ -210,7 +210,7 @@ Precision at 10 is defined in an analogous manner.
 ### Average Precision
 
 Average precision is defined as the weighted average of 'Precisions at k' for all possible values of k.
-The weight depends on k and equals to one if the k-th retrieved instance is a match. Otherwise it equals to zero.  
+The weight depends on k and equals to one if the k-th retrieved instance is a match. Otherwise it equals to zero.
 
 For more details, see
 ```
